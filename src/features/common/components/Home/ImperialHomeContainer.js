@@ -1,13 +1,16 @@
 import React from 'react'
-import {ImperialHomeHeader} from './ImperialHomeHeader'
-export const ImperialHomeContainer =()=>{
+import { ImperialHomeHeader } from './ImperialHomeHeader'
+import { ImperialHomeContnet } from './ImperialHomeContent'
+import { ImperialHomeFooter} from './ImperialHomeFooter'
+export const ImperialHomeContainer = () => {
 
     return (
 
         <div className="container-fluid p-0 m-0">
-              <ImperialHomeHeader/>
-             <img alt="image" className="img-fluid" style={{width:'100%',height:'auto'}}  src="https://imperialcafemyanmar.com/assets/img/Restaurant.jpg" />
-       
+
+            <ImperialHomeHeader />
+            <ImperialHomeContnet />
+            <ImperialHomeFooter />
         </div>
     )
 }
